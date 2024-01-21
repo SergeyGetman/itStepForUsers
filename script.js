@@ -1,21 +1,26 @@
-//console.log("some text");
+//создать копию обьекта не меняя исходный обьект
+const obj = {
+    name: "Sergo",
+    age: 25
+}
 
-// const toggleModal = (event) => {
-//   event.preventDefault();
+const copyObj = {}; // использовать for in
 
-//   const getModalStyle = document.getElementById("modal-change");
-//   console.log("getModalStyle", getModalStyle);
-// };
 
-// alert("hi name !!!!");
+// убрать дубли
+const arrayForSort = [1, 3, 4, 6, 0, 23, 0, 0, 0]
 
-// confirm("yes", "no");
+// let newArr =[];
+// for (let i = 0; i<arrayForSort.length; i++){ // решить через цикл for;
+// if(arrayForSort[i])
+// }
 
-// prompt("введіть сві зріст");
+//через деструкторизацию вытащить все name -// решить через цикл for;
+//изменить в исходном обьекте все ключи sex на "no-name" - // решить через цикл for;
+//записать в переменную isFunc вызов второго алёрта // черз переменную
 
-// const popover = new bootstrap.Popover(
-//   document.querySelector(".example-popover"),
-//   {
-//     container: "body",
-//   }
-// );
+const paramObject = [
+    { name: "Tort", sex: "male", func: () => { alert("alert_1") } },
+    { name: "Kort", sex: "wooman", func: () => { alert("alert_2") } },
+    { name: "Port", sex: "male", func: () => { alert("alert_3") } },
+]
