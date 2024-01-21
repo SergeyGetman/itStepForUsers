@@ -623,7 +623,9 @@ section input {
   width: 95% !important;
 }
 
-#form-content {}
+#form-content {
+  background-color: #504f4f;
+}
 
 #info {
   display: grid;
