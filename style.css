@@ -579,6 +579,10 @@ li::before {
   gap: 1px 1px;
   grid-column-gap: 0px;
   grid-row-gap: 0px;
+  padding-bottom: -20px;
+  display: flex;
+  position: relative;
+  bottom: 150px;
 }
 
 form {
@@ -646,4 +650,49 @@ section input {
 #reset-fields {
   background-color: #e41616;
   border: none;
+}
+
+.block_five {
+  background-color: #9198e5;
+  height: 375px;
+  width: 1200px;
+  color: #0A0A0A;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36px; /* 120% */
+  display: flex;
+  position: relative;
+}
+
+.text_block_five {
+  color: #0A0A0A;
+text-align: center;
+font-family: Roboto;
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: 36px; /* 120% */
+display: flex;
+position: relative;
+Top: 124px;
+Left: 343px;
+}
+
+.block_five_Naming {
+  width: 159px;
+  height: 16px;
+  color: #504F4F;
+  text-align: center;
+  font-family: Inter;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 15.6px; /* 141.818% */
+  display: flex;
+  position: relative;
+  top: 230px;
+  left: 20px;
 }
