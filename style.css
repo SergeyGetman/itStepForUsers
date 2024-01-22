@@ -141,10 +141,12 @@
 
 .btn-block button {
   background: rgb(213, 118, 50);
-  background: linear-gradient(90deg,
-      rgba(213, 118, 50, 0.927608543417367) 16%,
-      rgba(235, 226, 237, 1) 52%,
-      rgba(252, 176, 69, 1) 100%);
+  background: linear-gradient(
+    90deg,
+    rgba(213, 118, 50, 0.927608543417367) 16%,
+    rgba(235, 226, 237, 1) 52%,
+    rgba(252, 176, 69, 1) 100%
+  );
   margin: 10px;
   padding: 5px;
   color: rgb(14, 28, 68);
@@ -164,10 +166,12 @@
   0% {
     transform: translateY(0);
     background: rgb(213, 118, 50);
-    background: linear-gradient(90deg,
-        rgba(213, 118, 50, 0.927608543417367) 16%,
-        rgba(235, 226, 237, 1) 52%,
-        rgba(252, 176, 69, 1) 100%);
+    background: linear-gradient(
+      90deg,
+      rgba(213, 118, 50, 0.927608543417367) 16%,
+      rgba(235, 226, 237, 1) 52%,
+      rgba(252, 176, 69, 1) 100%
+    );
   }
 
   50% {
@@ -190,10 +194,12 @@
   0% {
     transform: translateX(0);
     background: rgb(213, 118, 50);
-    background: linear-gradient(90deg,
-        rgba(213, 118, 50, 0.927608543417367) 16%,
-        rgba(235, 226, 237, 1) 52%,
-        rgba(252, 176, 69, 1) 100%);
+    background: linear-gradient(
+      90deg,
+      rgba(213, 118, 50, 0.927608543417367) 16%,
+      rgba(235, 226, 237, 1) 52%,
+      rgba(252, 176, 69, 1) 100%
+    );
   }
 
   50% {
@@ -216,19 +222,23 @@
   0% {
     transform: rotate(5deg);
     background: rgb(213, 118, 50);
-    background: linear-gradient(90deg,
-        rgba(213, 118, 50, 0.927608543417367) 16%,
-        rgba(235, 226, 237, 1) 52%,
-        rgba(252, 176, 69, 1) 100%);
+    background: linear-gradient(
+      90deg,
+      rgba(213, 118, 50, 0.927608543417367) 16%,
+      rgba(235, 226, 237, 1) 52%,
+      rgba(252, 176, 69, 1) 100%
+    );
   }
 
   25% {
     transform: rotate(45deg);
     background: rgb(213, 118, 50);
-    background: linear-gradient(90deg,
-        rgba(213, 118, 50, 0.927608543417367) 16%,
-        rgba(235, 226, 237, 1) 52%,
-        rgba(252, 176, 69, 1) 100%);
+    background: linear-gradient(
+      90deg,
+      rgba(213, 118, 50, 0.927608543417367) 16%,
+      rgba(235, 226, 237, 1) 52%,
+      rgba(252, 176, 69, 1) 100%
+    );
   }
 
   50% {
@@ -364,7 +374,7 @@ li::before {
   text-decoration: none;
 }
 
-.checkbox:checked+.todoText {
+.checkbox:checked + .todoText {
   text-decoration: line-through;
 }
 
@@ -597,10 +607,12 @@ form {
 
 form label {
   color: rgb(91 226 251);
-  color: linear-gradient(90deg,
-      rgba(50, 124, 213, 0.927608543417367) 16%,
-      rgba(235, 226, 237, 1) 57%,
-      rgba(252, 69, 251, 1) 100%);
+  color: linear-gradient(
+    90deg,
+    rgba(50, 124, 213, 0.927608543417367) 16%,
+    rgba(235, 226, 237, 1) 57%,
+    rgba(252, 69, 251, 1) 100%
+  );
 }
 
 form svg {
@@ -623,7 +635,8 @@ section input {
   width: 95% !important;
 }
 
-#form-content {}
+#form-content {
+}
 
 #info {
   display: grid;
@@ -662,4 +675,27 @@ section input {
 .myBlock strong {
   font-size: 30px;
 
+}
+
+.main-content-form-info {
+  height: 1130px;
+  background-color: #0a0a0a;
+  position: relative;
+  margin-top: 245px;
+}
+
+.main-content-form-info_title {
+  margin-top: 135px;
+  margin-left: 120px;
+  font-family: cursive;
+  position: absolute;
+  width: 907px;
+  height: 200px;
+  color: #faf9f7;
+  font-family: Roboto;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 64px;
+  background-color: #df1515;
 }
