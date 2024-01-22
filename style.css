@@ -650,3 +650,17 @@ section input {
   background-color: #e41616;
   border: none;
 }
+
+.myBlockOne {
+  height: 375px;
+  background-color: #c6f572;
+  margin-top: 180px;
+  text-align: center;
+  padding: 5%;
+}
+
+.components {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5%;
+}
