@@ -621,6 +621,7 @@ section input {
 }
 
 #form-content {
+  margin: 8;
 }
 
 #info {
@@ -645,4 +646,10 @@ section input {
 #reset-fields {
   background-color: #e41616;
   border: none;
+}
+.custom-block {
+  background-color: #9198e5;
+  width: 1200px;
+height: 373px;
+flex-shrink: 0;
 }
