@@ -650,3 +650,16 @@ section input {
   background-color: #e41616;
   border: none;
 }
+
+.myBlock {
+  height: 375px;
+  background: rgb(124, 199, 199);
+  margin: 180px 0 10px 0;
+  text-align: center;
+  padding-top: 10%;
+}
+
+.myBlock strong {
+  font-size: 30px;
+
+}
