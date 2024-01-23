@@ -652,3 +652,27 @@ section input {
   background-color: #e41616;
   border: none;
 }
+
+.blockalex {
+  margin-top: 22%;
+  height: 375px;
+  background-color: #049976;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-right: 1px solid grey;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.quotealex {
+  font-size: 24px;
+  text-align: center;
+}
+
+.authoralex {
+  font-size: 14px;
+  text-align: right;
+}
