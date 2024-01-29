@@ -732,12 +732,7 @@ section input {
   background-repeat: no-repeat;
 }
 
-.pre-footer-block-second-content {
-  height: 1190px;
-  background-color: #0a0a0a;
-  color: white;
-  flex-shrink: 0;
-}
+
 
 .pre-footer-block-first-content__cards {
   display: flex;
