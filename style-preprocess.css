@@ -1,0 +1,13 @@
+.predrocessing {
+  height: 200px;
+  background: rgb(209, 198, 198);
+}
+.predrocessing button {
+  background-color: rgb(220, 45, 45);
+}
+.predrocessing__title {
+  font-size: 45px;
+  color: darkblue;
+  width: 250px;
+  background-color: coral;
+}/*# sourceMappingURL=style-preprocess.css.map */
