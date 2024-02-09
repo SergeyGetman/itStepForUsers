@@ -33,9 +33,10 @@
     position: absolute;
     height: 460px;
     width: 350px;
-    margin: 0 auto;
     background-image: url("images/list.png");
     z-index: 1;
+    margin-left: auto;
+    right: 106px;
   }
 
   &__formcontent {
@@ -45,6 +46,17 @@
     flex-shrink: 0;
     border-radius: 24px;
     background: #fbf19b;
-    position: absolute;
+    display: flex;
+    justify-content: center;
   }
+}
+
+.general-block__crypto {
+  background: linear-gradient(
+    90deg,
+    rgba(50, 124, 213, 1) 6%,
+    rgba(227, 226, 237, 1) 50%,
+    rgba(69, 85, 252, 1) 96%
+  );
+  height: 720px;
 }
